@@ -1,0 +1,62 @@
+Equipe:
+1 - Caio César Silva Diogenes
+2 - Luis Gomes Damasceno Neto
+3 - Tiago Rodrigues Sousa
+4 - Raphael Carvalho Garcia
+
+//estoque//
+
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <title>ATIVIDADE 2 WEB</title>
+        <meta charset="UTF-8">
+        <style>
+           
+        </style>
+    </head>
+    <body>
+        <div id='divCabeçalho' align='center'>
+            <figure>
+                <img src='./img/ufc.png' width='130px' height="150px">
+            </figure>
+            <h1> <a href="https://www.instagram.com/ufcquixada/?hl=pt-br"
+                 target="_blank">Universidade Federal do Ceará</a>
+            </h1>
+            <h2> <a href='#' target='_self'>
+                
+                Luis Gomes Damasceno Neto - 428223</a></h2>
+            <h3> <a href='https://si.quixada.ufc.br/' target='_blank'>
+                Sistemas de informação</a></h3>
+        </div>
+        <div id='divIndex'>
+           <hr>
+            <form>
+               <h2 align='center' style="color: orangered;">Estoque de produtos</h2>
+           </form>
+
+            <fieldset align='center'>
+                <a  for ='create' href="./components/create.html" accesskey="c"><strong><h3>Create</h3></strong></a>
+                <br>
+                <a href="./components/read.html" accesskey="r"><strong><h3>Read</h3></strong></a>
+                 <br>
+                <a href="./components/update.html" accesskey="u"><strong><h3>Update</h3></strong></a>
+                 <br>
+                <a href="./components/delete.html" accesskey="d"><strong><h3>Delete</h3></strong></a>
+                <br>
+           </fieldset>
+        </div>
+        
+        <div align="center" >
+            <label for="avalia"><h3>Avaliar site</h3></label>
+            <input id='avalia'  name='rangeAvalia' type='range' min='0' max='10' value="0"  oninput="display.value=value" onchange="display.value=value">
+         <br>
+            <input type="text" id="display" value="0" oninput="rangeAvalia.value=value" onchange="rangeAvalia.value=value">
+            <button id='btnAvalia'><a href='./tnks.html' >Avaliar</a></button>
+          </div>
+    </body>
+    <script src='./JS/localstorage.js'></script>
+    
+</html>

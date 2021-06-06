@@ -1,0 +1,64 @@
+Equipe:
+1 - Caio César Silva Diogenes
+2 - Luis Gomes Damasceno Neto
+3 - Tiago Rodrigues Sousa
+4 - Raphael Carvalho Garcia
+
+//estoque//
+
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <title>ATIVIDADE 2 WEB</title>
+        <meta charset="UTF-8">
+        <style>
+           
+        </style>
+    </head>
+    <body>
+        <div id='divHead' align='center'>
+            <h2> <a href='#' target='_self'>
+                Luis Gomes Damasceno Neto - 428223</a></h2>
+        </div>
+        <div id='divUp'>
+            <h2 align='center' style="color: orangered;">Atualizar produto</h2>
+            <form id='formBuscar' align='center' style='background-color: aliceblue;'>
+                <input placeholder="Digite a ID do produto" type="text" id='idProduto'>
+                <input type="button" id='btnBuscar' value='Buscar produto'>
+            </form>
+            <form id='formU' align='center' style='background-color: aliceblue;'>
+                <fieldset>
+                    <label for='name'><strong>Produto</strong></label>
+                    <element><input id='name' type="text" placeholder="nome do produto"></element><br><br>
+    
+                    <label for='forn'><strong>Fornecedor</strong></label>
+                    <input id='forn' type="text" placeholder="nome do fornecedor"><br><br>
+    
+                    <label for='valor'><strong>Valor und.</strong></label>
+                    <input id='valor' type="text" placeholder="R$ 0,00"><br><br>
+    
+                    <label for='qnt'><strong>Quantidade</strong></label>
+                    <input id='qnt' type="text" placeholder="quantidade do produto"><br><br>
+    
+                    <label for='data'><strong>Data</strong></label>
+                    <input id='data' type="date" required>  <br><br>
+
+                    <label for='descr'><strong>Descrição</strong></label><br>
+                    <textarea id='descr' placeholder="insira uma descrição para o produto" rows="10" cols="40"></textarea>
+                    <br><br>
+                    <input type="button" id='btnAtualiza' value='Atualizar'>
+                </fieldset>
+            </form>
+        </div>
+        
+        
+        
+        <div id='divBack' align='center'>
+            <buttom ><a href="../index.html">Voltar</a></buttom>
+        </div>
+    </body>
+    <script src='../JS/localstorage.js'></script>
+
+</html>

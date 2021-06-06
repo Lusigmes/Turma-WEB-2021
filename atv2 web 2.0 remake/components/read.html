@@ -1,0 +1,70 @@
+Equipe:
+1 - Caio César Silva Diogenes
+2 - Luis Gomes Damasceno Neto
+3 - Tiago Rodrigues Sousa
+4 - Raphael Carvalho Garcia
+
+//estoque//
+
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <title>ATIVIDADE 2 WEB</title>
+        <meta charset="UTF-8">
+        <style>
+           
+        </style>
+    </head>
+    <body>
+        <div id='divHead' align='center'>
+            <h2> <a href='#' target='_self'>
+                Luis Gomes Damasceno Neto - 428223</a></h2>
+        </div>
+        <div>
+            <table border='1' align='center'>
+                <tr>
+                    <th><strong>Id</strong></th>
+                    <th><strong>Produto</strong></th>
+                    <th><strong>Fornecedor</strong></th>
+                    <th><strong>Valor</strong></th>
+                    <th><strong>Quantidade</strong></th>
+                    <th><strong>Data</strong></th>
+                    <th><strong>Descrição</strong></th>
+                </tr>
+                
+                    <script>
+                        for(var id in localStorage){
+                            var produto = JSON.parse(localStorage.getItem(id));
+                            if(produto){
+                                document.write(
+                                    "<tr>" +
+                                        "<td>"+produto.id+"</td>"+
+                                        "<td>"+produto.name+"</td>"+
+                                        "<td>"+produto.forn+"</td>"+
+                                        "<td>"+produto.valor+"</td>"+
+                                        "<td>"+produto.qnt+"</td>"+
+                                        "<td>"+produto.data+"</td>"+
+                                        "<td>"+produto.descr+"</td>"+
+                                    "</tr>"  
+                                    
+
+                                
+                                )
+                            }
+                        
+                        }
+                    </script>
+
+                
+            </table>
+        </div>
+
+        <div id='divBack' align='center'>
+            <buttom ><a href="../index.html">Voltar</a></buttom>
+        </div>
+    </body>
+    <script src='../JS/localstorage.js'></script>
+    
+</html>
