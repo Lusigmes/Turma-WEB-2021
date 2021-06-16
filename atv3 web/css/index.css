@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+}
+#imgFundo{
+    background-image:url('../img/luta.jpg');
+    height: 180mm;
+    
+}
+#aa{
+    float:right;
+    color:white;
+}
+#butList{
+    border-radius: 10px;
+    position:relative;
+    background-color:goldenrod ;
+    opacity: 0.6;
+    float:right ;
+    /*<input type='button' id='butList' value="Acessar lista de participantes" tabindex="1"><a href="./pages/participantes.html"></a></input>*/
+}
+.divDisplay{
+    background-color:black ;
+    height: 140mm;
+    width: 30%;
+    padding: 0.3cm;
+    margin:auto   ;
+    opacity:0.8  ;
+    font-family: cursive;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888;
+    
+}
+.divHead{
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+    color: aqua;
+}
+#name{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    font-family: fantasy;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+#email{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    font-family: fantasy;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+#age{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    font-family: fantasy;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+#categoria{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    font-family: fantasy;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+#des{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    font-family: fantasy;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+#butFinal{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    font-family: fantasy;
+    
+    height: 30px;
+    color:black;
+    opacity:  0.5;
+    
+   
+}
+
+.divFundo{
+    background-color: black;
+    padding: 0.5cm;
+    border-radius: 10px;
+    
+}
+#categoria{
+    border: 1px solid black;
+    border-radius: 10px;
+      
+}

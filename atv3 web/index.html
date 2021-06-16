@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atividade 3 web</title>
+        <link rel='stylesheet' href='./css/index.css'>
+        <meta charset="UTF-8">
+        <meta name='viewport' content="width-device-width, initial-scale=1">
+        <meta http-equiv="refresh" content="60">
+       
+        <meta name='author' content="luis">
+        <meta name="keywords" content='web'>
+        <meta name='description' content="atv3 WEB">
+        
+    </head>
+    <body>
+
+       <a id='aa' href="./pages/participantes.html">Acessar lista de participantes</a>
+        <div id='imgFundo'> 
+
+            <div class='divDisplay' style="color: aliceblue;">
+                <form id='form1'>
+                    <label for='name'>Nome</label><br>
+                    <input id='name' type='text' placeholder="Digite seu nome completo"><br>
+                    <label for='email'>E-mail</label><br>
+                    <input id='email' type='text' placeholder="Digite seu e-mail principal"><br>
+                    <label for='age'>Idade</label><br>
+                    <input id='age' type='text' placeholder="Digite sua idade"><br>
+                    <label for='categoria'>Categoria</label>
+                    <select id='categoria'>
+                        <optgroup label='Misto'>
+                            <option class="personalizar-option">Peso Palha (Strawweight) - até 52,2 kg /115 lb (Feminino)</option>
+                            <option class="personalizar-option">Peso Mosca (Flyweight) - até 56,7 kg / 125 lb (Masculino e Feminino)</option>
+                            <option class="personalizar-option">Peso Galo (Bantamweight) - até 61,2 kg / 135 lb (Masculino e Feminino)</option>
+                            <option class="personalizar-option">Peso Pena (Featherweight) - até 65,8 kg / 145 lb (Masculino e Feminino)</option>
+                            <option class="personalizar-option">Peso Leve (Lightweight) - até 70,3 kg / 155 lb</option>
+                        </optgroup>
+                        <optgroup label='Masculino'>
+                            <option class="personalizar-option">Peso Meio-Médio (Welterweight) - até 77,1 kg / 170 lb</option>
+                            <option class="personalizar-option">Peso Médio (Middleweight) - até 83,9 kg / 185 lb</option>
+                            <option class="personalizar-option">Peso Meio-Pesado (Light Heavyweight) - até 93,0 kg / 205 lb</option>
+                            <option class="personalizar-option">Peso Pesado (Heavyweight) - até 120,2 kg / 265 lb</option>
+                        </optgroup>
+                    </select>
+                    <label>Sexo</label><br>
+                    <input type="radio" id='male' value='male'>
+                    <label for='male'>Homem</label><br>
+                    <input type="radio" id='female' value='female'>
+                    <label for='female'>Mulher</label><br>
+                    <input type="radio" id='other' value='other'>
+                    <label for='other'>Outro</label><br>
+                
+                    <label>Já partipou do evento?</label>
+                    <input type="checkbox" id='cb1'>
+                    <label for='cb1'>Sim</label>
+                    <input type="checkbox" id='cb2'>
+                    <label for='cb2'>Não</label><br>
+                    <br>
+            
+                    <textarea id='des' type='description'placeholder="Deixe sua observação." rows="5" cols="45"></textarea>
+                    <br>
+                
+                
+                    <button id='butFinal'>Confirmar! </button>
+                 </form>
+            </div>
+        </div>
+    </div> 
+    
+    </body>
+
+    <script src='./js/bancoddados.js' >
+        
+    </script>
+
+
+
+</html>
+
+
